@@ -1,6 +1,7 @@
 # Web Scraper per Dati sul Traffico Aereo ✈️
 
-Questo script Python è progettato per automatizzare il download e l'elaborazione dei dati sul traffico passeggeri degli aeroporti italiani. I dati sono estratti dai file Excel mensili forniti da Assaeroporti.
+Questo script Python è progettato per automatizzare il download e l'elaborazione dei dati sul traffico passeggeri degli aeroporti italiani dal sito https://assaeroporti.com/dati-di-traffico/. 
+I dati sono estratti dai file Excel mensili forniti da Assaeroporti.
 
 Il programma esegue i seguenti passaggi:
 
