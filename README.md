@@ -2,10 +2,10 @@
 
 Questo script Python è progettato per automatizzare il download e l'elaborazione dei dati sul traffico passeggeri degli aeroporti italiani. I dati sono estratti dai file Excel mensili forniti da Assaeroporti.
 
-Cosa fa il codice?
+#Cosa fa il codice?#
 Il programma esegue i seguenti passaggi:
 
-*1- Genera URL:* 
+1- Genera URL:
 Crea una lista di URL per i file Excel mensili, coprendo un intervallo di tempo specifico (attualmente da gennaio 2019 a settembre 2025).
 
 2- Scarica e Processa: Scarica ogni file Excel, gestendo eventuali errori di rete con un meccanismo di retry automatico. Dal file, estrae il foglio "Passeggeri Mese".
