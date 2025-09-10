@@ -6,6 +6,7 @@ Il programma esegue i seguenti passaggi:
 
 1- Genera URL:
 Crea una lista di URL per i file Excel mensili, coprendo un intervallo di tempo specifico (attualmente da gennaio 2019 a settembre 2025).
+*E' possibile variare il periodo di estrazione dei file cambiando le date di inizio e fine*
 
 2- Scarica e Processa: 
 Scarica ogni file Excel, gestendo eventuali errori di rete con un meccanismo di retry automatico. Dal file, estrae il foglio "Passeggeri Mese".
@@ -22,13 +23,3 @@ Sostituisce i valori mancanti (NaN) con zero.
 5- Esporta: 
 Combina tutti i dati in un unico DataFrame e lo salva in un file CSV chiamato passeggeri_aeroporti_long.csv.
 
--------------------------------------------------------------------------------------------------------------
-Come usarlo
-Per eseguire il codice, assicurati di avere le librerie necessarie installate (pandas, requests, numpy). 
-
-Eseguire semplicemente lo script Python:
-
-Bash
-
-python nome_file.py
-Il file passeggeri_aeroporti_long.csv verrà creato nella stessa directory.
