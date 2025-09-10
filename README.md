@@ -5,9 +5,10 @@ Questo script Python è progettato per automatizzare il download e l'elaborazion
 Cosa fa il codice?
 Il programma esegue i seguenti passaggi:
 
-Genera URL: Crea una lista di URL per i file Excel mensili, coprendo un intervallo di tempo specifico (attualmente da gennaio 2019 a ottobre 2024).
+*1- Genera URL:* 
+Crea una lista di URL per i file Excel mensili, coprendo un intervallo di tempo specifico (attualmente da gennaio 2019 a settembre 2025).
 
-Scarica e Processa: Scarica ogni file Excel, gestendo eventuali errori di rete con un meccanismo di retry automatico. Dal file, estrae il foglio "Passeggeri Mese".
+2- Scarica e Processa: Scarica ogni file Excel, gestendo eventuali errori di rete con un meccanismo di retry automatico. Dal file, estrae il foglio "Passeggeri Mese".
 
 Pulizia e Trasformazione:
 
